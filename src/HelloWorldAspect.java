@@ -7,6 +7,6 @@ public class HelloWorldAspect {
 
   @After("execution (* HelloWorld.*(..))")
   public void greetAspect() {
-      System.out.println(", World");
+      System.out.print(", World");
   }
 }
